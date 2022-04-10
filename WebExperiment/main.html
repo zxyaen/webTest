@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-btn-box">
+            <button class="btn-log">Login</button>
+            <button class="btn-reg">Register</button>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="left">
+            <a href="javascript:;" class="about-me">个人简介</a>
+        </div>
+        <div class="right">
+            <!-- 登陆表 -->
+            <div class="form-log">
+                <p>Please Log In</p>
+                <div class="log-box">
+                    <label for="log">Login:</label>
+                    <input type="text" name="log" value="请输入账号" id="log-box">
+                </div>
+                <div class="pwd-box">
+                    <label for="pwd">password:</label>
+                    <input type="password" name="pwd" id="pwd">
+                </div>
+                <div class="submit-box">
+                    <button>OK</button>
+                    <button>Forget Password</button>
+                </div>
+            </div>
+            <!-- 注册表 -->
+            <div class="form-register">
+                <p>New Member</p>
+                <form action="post">
+                    <ul>
+                        <li>
+                            <label for="id">Id</label>
+                            <input type="text" name="id" id="id">
+                        </li>
+                        <li>
+                            <label for="pwd-re">Password</label>
+                            <input type="password" name="pwd-re" id="pwd-re">
+                        </li>
+                        <li>
+                            <label for="pwd-re-r">Re-Password</label>
+                            <input type="password" name="pwd-re-r" id="pwd-re-r">
+                        </li>
+                        <li>
+                            <label for="f-name">First Name</label>
+                            <input type="text" name="f-name" id="f-name">
+                        </li>
+                        <li>
+                            <label for="l-name">Last Name</label>
+                            <input type="text" name="l-name" id="l-name">
+                        </li>
+                        <li>
+                            <label for="ad">Address</label>
+                            <input type="text" name="ad" id="ad">
+                        </li>
+                        <li>
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city">
+                        </li>
+                        <li>
+                            <label for="state">State</label>
+                            <select name="state" id="state">
+                                <option value="">请输入城市</option>
+                                <option value="北京">北京</option>
+                                <option value="上海">上海</option>
+                                <option value="广州">广州</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li class="no">
+                            <label for="tec">Select Interest</label>
+                            <input type="checkbox" name="tec" id="tec" value="Technology">Technology
+                            <input type="checkbox" name="tec" id="ent" value="Enterprise">Enterprise
+                            <input type="checkbox" name="tec" id="res" value="Research">Research
+                        </li>
+                        <li>
+                            <label for="ques">Question</label>
+                            <select name="ques" id="ques">
+                                <option value="">请选择问题</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="answer">Answer</label>
+                            <input type="email" name="answer" id="answer">
+                        </li>
+                    </ul>
+                    <div class="submit-box">
+                        <button>Submit Indomation</button>
+                        <input type="reset" name="reset" id="reset" value="Reset Form">
+                    </div>
+
+                </form>
+            </div>
+            <!-- 个人简介 -->
+            <div class="introduction">
+                <p>个人简介</p>
+                <ul class="about-me-ul">
+                    <li>姓名：闫祚勋</li>
+                    <li>性别：男</li>
+                    <li>学号：201917030425</li>
+                    <li>专业：网络空间安全</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
