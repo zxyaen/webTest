@@ -1,0 +1,117 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li ,
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+
+.top {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 20px; */
+    border: 1px solid black;
+
+    /* password-align: pwdce */
+
+    /* line-height: 135px; */
+}
+.top-btn-box button{
+    margin: 0 30px;
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    border: 1px solid black;
+}
+
+.form-log label {
+    display: inline-block;
+    width: 80px;
+}
+
+.form-register label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.form-log input {
+    width: 150px;
+}
+
+.log-box,
+.pwd-box {
+    margin: 5px 0;
+}
+
+.form-log,
+.form-register {
+    display: none;
+    padding: 2em;
+    /* text-align: center; */
+    border: 1px solid silver;
+}
+
+.form-register li:not(.no) input {
+    width: 190px;
+}
+
+.form-register li {
+    margin-bottom: 3px;
+}
+
+.form-log p,
+.form-register p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.submit-box {
+    text-align: right;
+}
+
+.form-register .submit-box {
+    margin-right: 56px;
+}
+
+.introduction {
+    display: none;
+    padding: 2em;
+    border: 1px solid silver;
+}

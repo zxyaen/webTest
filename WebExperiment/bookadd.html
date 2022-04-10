@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        li {
+            list-style-type: decimal;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <label for="bookPrice">书的价格：</label>
+    <input type="text" name="bookPrice" id="bookPrice">
+    <button id="addArry">添加书的价格</button>
+    <ul>书的价格分别是：
+
+    </ul>
+
+    <button id="sumBtn">计算总价</button><br>
+    <button id="hight">显示最高价格</button>
+    <button id="low">显示最低价格</button>
+    <button id="ave">显示平均价格</button>
+    <p id="allPrice"></p>
+    <p id="hightNum"></p>
+    <p id="lowNum"></p>
+    <p id="aveNum"></p>
+    <!-- 引用jQuery库文件 -->
+    <script src="./jquery.js"></script>
+    <script src="./booadd.js"></script>
+</body>
+
+</html>
